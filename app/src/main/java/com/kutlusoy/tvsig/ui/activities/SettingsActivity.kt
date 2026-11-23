@@ -121,9 +121,15 @@ class SettingsActivity : AppCompatActivity() {
             themeRow.onSelectionChanged = { viewModel.updateSettings(isDarkMode = it == 1) }
 
             languageRow.setOptions(
-                listOf(getString(R.string.language_auto), getString(R.string.language_en), getString(R.string.language_de), getString(R.string.language_tr)),
-                settings.language
-            )
+    listOf(
+        getString(R.string.language_auto),
+        getString(R.string.language_en),
+        getString(R.string.language_de),
+        getString(R.string.language_tr),
+        getString(R.string.language_pt)
+    ),
+    settings.language
+)
             languageRow.onSelectionChanged = { viewModel.updateSettings(language = it) }
 
             updateInstalled.text = getString(R.string.update_installed_version, BuildConfig.VERSION_NAME)
