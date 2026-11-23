@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">TVSig</string>
-    <string name="app_tagline" translatable="false">TVSig Android Digital Signage</string>
+    <string name="app_name" translatable="false">TanaTela</string>
+    <string name="app_tagline" translatable="false">TanaTela — Player de Mídia Indoor</string>
     <string name="app_contact" translatable="false">kutlusoy.dev@gmail.com</string>
     <string name="about_author_name" translatable="false">Ali Kutlusoy</string>
     <string name="about_repo_url" translatable="false">github.com/kutlusoy/tvsig</string>
@@ -10,7 +10,7 @@
     <string name="language_en" translatable="false">English</string>
     <string name="language_de" translatable="false">Deutsch</string>
     <string name="language_tr" translatable="false">Türkçe</string>
-    <string name="about_title">About TVSig</string>
+    <string name="about_title">Sobre o TanaTela<</string>
     <string name="about_version">Version: %1$s (%2$d)</string>
     <string name="about_author">Author: %s</string>
     <string name="about_repo">Repository: %s</string>
