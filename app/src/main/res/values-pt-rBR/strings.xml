@@ -1,0 +1,133 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_title">Sobre o TanaTela</string>
+    <string name="about_version">Versão: %1$s (%2$d)</string>
+    <string name="about_author">Desenvolvedor original: %s</string>
+    <string name="about_repo">Código-fonte original: %s</string>
+    <string name="about_license">Licença de código aberto: MIT</string>
+    <string name="about_contact">Contato do desenvolvedor: %s</string>
+
+    <string name="pin_enter">Digite o PIN</string>
+    <string name="pin_incorrect">PIN incorreto</string>
+    <string name="button_exit">Sair</string>
+    <string name="button_change_pin">Alterar PIN</string>
+    <string name="pin_changed">PIN alterado</string>
+    <string name="pin_current">PIN atual</string>
+    <string name="pin_new">Novo PIN</string>
+    <string name="pin_confirm_new">Confirme o novo PIN</string>
+    <string name="error_pins_dont_match">Os PINs não coincidem</string>
+
+    <string name="settings_title">Configurações</string>
+    <string name="settings_base_url">URL principal do servidor web</string>
+    <string name="settings_base_url_helper">Ex.: https://exemplo.com/midia</string>
+    <string name="settings_drive_id">ID da pasta principal do Google Drive</string>
+    <string name="settings_drive_id_helper">O ID está no link da pasta, depois de /folders/</string>
+    <string name="settings_source_type">Tipo de fonte</string>
+    <string name="source_web">Servidor web</string>
+    <string name="source_drive">Google Drive</string>
+    <string name="settings_folder_helper">Você pode selecionar uma pasta em \"Escolher pasta\"</string>
+    <string name="settings_subfolder">Pasta (caminho)</string>
+    <string name="settings_delay">Tempo de exibição por imagem</string>
+    <string name="option_previous">Valor anterior</string>
+    <string name="option_next">Próximo valor</string>
+    <string name="seconds_format">%d segundos</string>
+    <string name="settings_remote_hint">Use as setas esquerda e direita para alterar o valor, OK para avançar e Voltar para cancelar.</string>
+
+    <string name="settings_section_source">Fonte de conteúdo</string>
+    <string name="settings_section_playback">Reprodução</string>
+    <string name="settings_section_display">Tela</string>
+    <string name="settings_section_security">Segurança e manutenção</string>
+
+    <string name="settings_pick_folder">Escolher pasta</string>
+    <string name="folder_picker_title">Escolher uma pasta</string>
+    <string name="folder_picker_loading">Carregando pastas…</string>
+    <string name="folder_picker_root">Pasta principal</string>
+    <string name="folder_picker_use">✓  Usar esta pasta</string>
+    <string name="folder_picker_up">↑  Subir um nível</string>
+    <string name="folder_picker_folder">›  %s</string>
+    <string name="folder_picker_empty">Não há mais subpastas</string>
+    <string name="folder_picker_max_depth">Profundidade máxima atingida (%d níveis)</string>
+    <string name="folder_picker_error">Não foi possível carregar as pastas: %s</string>
+
+    <string name="settings_remote_setup">Configurar pelo celular</string>
+    <string name="remote_title">Configurar pelo celular</string>
+    <string name="remote_hint">Conecte o celular à mesma rede Wi-Fi, escaneie o código QR com a câmera e faça as configurações pelo celular.</string>
+    <string name="remote_no_network">Sem conexão de rede. Conecte a TV à rede.</string>
+    <string name="remote_failed">Não foi possível iniciar a configuração.</string>
+
+    <string name="settings_test_connection">Testar conexão</string>
+    <string name="test_running">Testando…</string>
+    <string name="test_ok">%1$d arquivos encontrados (%2$d imagens, %3$d vídeos)</string>
+    <string name="test_failed">Falha: %s</string>
+    <string name="test_no_url">Informe primeiro a fonte de conteúdo</string>
+
+    <string name="settings_transition">Efeito de transição</string>
+    <string name="settings_backdrop">Fundo atrás das imagens</string>
+    <string name="backdrop_zoom">Ampliado e desfocado</string>
+    <string name="backdrop_mirror">Espelhado e desfocado</string>
+    <string name="settings_orientation">Orientação da tela</string>
+    <string name="settings_theme">Tema do aplicativo</string>
+    <string name="settings_language">Idioma</string>
+    <string name="language_auto">Automático</string>
+    <string name="orientation_auto">Automática (somente celular)</string>
+    <string name="orientation_landscape">Horizontal</string>
+    <string name="orientation_90">Girar 90°</string>
+    <string name="orientation_180">Girar 180°</string>
+    <string name="orientation_270">Girar 270°</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
+    <string name="cache_clear">Limpar cache</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_save">Salvar</string>
+    <string name="button_close">Fechar</string>
+
+    <string name="error_no_base_url">Nenhuma fonte de conteúdo foi configurada.\n\nPressione Voltar ou toque aqui, digite o PIN e abra as configurações.</string>
+    <string name="error_load_failed">Não foi possível carregar a mídia: %s</string>
+    <string name="error_no_playable_media">Nenhuma mídia compatível encontrada</string>
+    <string name="error_offline">Sem conexão de rede</string>
+    <string name="error_no_media">Nenhuma imagem ou vídeo encontrado na pasta</string>
+    <string name="error_blocked">O servidor enviou uma página web em vez do arquivo (limite de acesso ou download)</string>
+    <string name="error_drive_link">ID da pasta do Google Drive não encontrado</string>
+    <string name="error_drive_folder">Pasta do Drive não encontrada ou não compartilhada com todas as pessoas que têm o link</string>
+    <string name="error_listing">A listagem da pasta não está disponível no servidor</string>
+
+    <string name="foreground_service_notification_text">O TanaTela está funcionando em segundo plano</string>
+    <string name="foreground_service_channel_name">Serviço de reprodução TanaTela</string>
+    <string name="foreground_service_channel_description">Mantém o TanaTela em funcionamento</string>
+
+    <string-array name="transition_options">
+        <item>Nenhum</item>
+        <item>Suavizar</item>
+        <item>Deslizar para a esquerda</item>
+        <item>Deslizar para a direita</item>
+        <item>Deslizar para cima</item>
+        <item>Deslizar para baixo</item>
+        <item>Ampliar</item>
+        <item>Reduzir</item>
+        <item>Aleatório</item>
+    </string-array>
+
+    <string name="settings_section_updates">Atualizações</string>
+    <string name="update_installed_version">Versão instalada: %s</string>
+    <string name="settings_check_update">Verificar atualizações</string>
+    <string name="update_checking">Verificando…</string>
+    <string name="update_available">Atualização disponível: %s</string>
+    <string name="update_current">A versão mais recente está instalada (%s)</string>
+    <string name="update_none">Nenhuma versão publicada encontrada</string>
+    <string name="update_check_failed">Não foi possível verificar atualizações: %s</string>
+    <string name="settings_install_update">Instalar versão %s</string>
+    <string name="update_downloading">Baixando… %d%%</string>
+    <string name="update_verifying">Verificando o arquivo baixado…</string>
+    <string name="update_installing">Instalando… o aplicativo será reiniciado depois</string>
+    <string name="update_needs_permission">Permita que o TanaTela instale aplicativos na próxima tela e depois pressione Instalar novamente</string>
+    <string name="update_failed">Falha na atualização: %s</string>
+    <string name="update_debug_build">Atualizações disponíveis somente na versão de lançamento</string>
+    <string name="update_error_network">Sem conexão com o GitHub</string>
+    <string name="update_error_no_apk">A versão publicada não contém um arquivo APK</string>
+    <string name="update_error_no_checksum">A versão não contém arquivo de verificação; a atualização não será instalada</string>
+    <string name="update_error_checksum">A verificação do arquivo baixado falhou; a atualização não será instalada</string>
+    <string name="update_error_insecure">O endereço de download não é seguro</string>
+    <string name="update_error_too_large">O arquivo de atualização é maior que o esperado</string>
+    <string name="update_error_storage">Espaço de armazenamento insuficiente</string>
+</resources>
