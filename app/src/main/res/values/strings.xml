@@ -5,7 +5,7 @@
     <string name="app_contact" translatable="false">kutlusoy.dev@gmail.com</string>
     <string name="about_author_name" translatable="false">Ali Kutlusoy</string>
     <string name="about_repo_url" translatable="false">github.com/kutlusoy/tvsig</string>
-    <string name="arrow_left" translatable="false">‹</string>
+    <string name="arrow_left" translatable="false">&lt;</string>
     <string name="arrow_right" translatable="false">›</string>
     <string name="language_en" translatable="false">English</string>
     <string name="language_de" translatable="false">Deutsch</string>
