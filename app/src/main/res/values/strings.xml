@@ -12,10 +12,10 @@
     <string name="language_tr" translatable="false">Türkçe</string>
     <string name="about_title">Sobre o TanaTela<</string>
     <string name="about_version">Version: %1$s (%2$d)</string>
-    <string name="about_author">Author: %s</string>
-    <string name="about_repo">Repository: %s</string>
-    <string name="about_license">License: MIT</string>
-    <string name="about_contact">Contact: %s</string>
+    <string name="about_author">Desenvolvedor original: %s</string>
+    <string name="about_repo">Código-fonte original: %s</string>
+    <string name="about_license">Licença de código aberto: MIT</string>
+    <string name="about_contact">Contato do desenvolvedor: %s</string>
     <string name="pin_enter">Enter PIN</string>
     <string name="pin_incorrect">Wrong PIN</string>
     <string name="button_exit">Quit</string>
