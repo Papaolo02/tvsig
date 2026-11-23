@@ -5,7 +5,8 @@ enum class AppLanguage(val id: Int, val tag: String) {
     AUTO(0, ""),
     ENGLISH(1, "en"),
     GERMAN(2, "de"),
-    TURKISH(3, "tr");
+    TURKISH(3, "tr"),
+    PORTUGUESE_BR(4, "pt-BR");
 
     companion object {
         val DEFAULT = AUTO
