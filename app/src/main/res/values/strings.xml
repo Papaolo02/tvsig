@@ -11,7 +11,7 @@
     <string name="language_de" translatable="false">Deutsch</string>
     <string name="language_tr" translatable="false">Türkçe</string>
     <string name="language_pt" translatable="false">Português (Brasil)</string>
-    <string name="about_title">Sobre o TanaTela<</string>
+    <string name="about_title"=>Sobre o TanaTela</string>
     <string name="about_version">Version: %1$s (%2$d)</string>
     <string name="about_author">Desenvolvedor original: %s</string>
     <string name="about_repo">Código-fonte original: %s</string>
